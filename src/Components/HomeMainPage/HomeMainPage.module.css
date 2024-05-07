@@ -1,0 +1,146 @@
+.homeMainPage {
+  display: flex;
+}
+
+/* .hideWhenMobile{
+  display: yes;
+} */
+
+@media (max-width: 600px) {
+  .hideWhenMobile {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .hideWhenPc{
+    display: none;
+  }
+}
+
+.colorButton1 {
+  border-radius: 50%;
+  min-width: 29px;
+  min-height: 29px;
+  background-color: #b38bfa;
+  border: 0px solid #b48bfa00;
+}
+
+.colorButton2 {
+  border-radius: 50%;
+  min-width: 29px;
+  min-height: 29px;
+  background-color: #ff79f2;
+  border: 0px solid #b48bfa00;
+}
+
+.colorButton3 {
+  border-radius: 50%;
+  min-width: 29px;
+  min-height: 29px;
+  background-color: #43e6fc;
+  border: 0px solid #b48bfa00;
+}
+
+.colorButton4 {
+  border-radius: 50%;
+  min-width: 29px;
+  min-height: 29px;
+  background-color: #f19576;
+  border: 0px solid #b48bfa00;
+}
+
+.colorButton5 {
+  border-radius: 50%;
+  min-width: 29px;
+  min-height: 29px;
+  background-color: #0047ff;
+  border: 0px solid #b48bfa00;
+}
+
+.colorButton6 {
+  border-radius: 50%;
+  min-width: 29px;
+  min-height: 29px;
+  background-color: #6691ff;
+  border: 0px solid #b48bfa00;
+}
+
+.colorButton6:active, .colorButton5:active, .colorButton4:active, .colorButton3:active, .colorButton2:active, .colorButton1:active {
+    border: 3px solid #020202;
+  }
+
+.Choosecolour {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  /* width: 11px; */
+}
+
+@media screen and (max-width: 600px) {
+  .ChoosecolourBreak::before {
+    content: "\a";
+    white-space: pre;
+  }
+}
+
+.create {
+  /* text */
+  color: #fff;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160.188%; /* 2.00238rem */
+  letter-spacing: 0.04375rem;
+
+  min-width: 111px;
+  min-height: 41px;
+  /* button */
+  border-radius: 0.6875rem;
+  background: #000;
+
+  position: relative;
+  right: -75%;
+}
+@media (max-width: 600px) {
+  .create {  
+    width: 80vw;
+    height: 41px;
+    position: center;
+    left: 11px;
+  }
+}
+.placeHold {
+  border-radius: 1.375rem;
+  border: 2px solid #ccc;
+  background: #fff;
+  height: 27px;
+  width: 211px;
+}
+
+.placeHold::placeholder {
+  position: relative;
+  left: 11px;
+}
+
+.Text1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.8125rem;
+  font-style: normal;
+  font-weight: 579;
+  line-height: 160.188%; /* 2.90338rem */
+  letter-spacing: 0.06344rem;
+}
+
+.Text2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.70713rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160.188%; /* 2.73463rem */
+  letter-spacing: 0.05975rem;
+}

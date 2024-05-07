@@ -1,0 +1,134 @@
+body {
+  background-color: #f7ecdc;
+}
+
+.NotesName {
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.29188rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.02581rem;
+
+  /* space */
+  position: relative;
+  left: 5px;
+}
+
+.NotesGroupHeading {
+  background: #e8e8e8;
+  width: 77vw;
+  height: 77px;
+
+  display: flex;
+  align-items: center;
+
+  position: fixed;
+}
+
+.NotesContent {
+  border-radius: 0rem 0rem 0rem 0.9375rem;
+  background: #DAE5F5;
+  width: 67vw;
+  height: 63vh;
+  overflow-y: scroll;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: fixed;
+  top: 77px;
+}
+
+.NotesEnter {
+  background-color: #e8e8e8;
+  height: 20vh;
+
+  /* center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  bottom: 0px;
+  width: 77vw;
+}
+
+.NotesInput {
+  color: #9a9a9a;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.03725rem;
+
+  max-width: 73vw;
+  max-height: 16vh;
+
+  min-width: 73vw;
+  min-height: 16vh;
+}
+
+.NotesInput::placeholder {
+  position: absolute;
+  top: 0px;
+}
+
+.NotesInputButton {
+  background-color: transparent;
+  border: 0px solid transparent;
+  position: absolute;
+  right: 3%;
+  bottom: 16%;
+}
+
+.time {
+  color: #353535;
+  font-family: Roboto;
+  font-size: 1.16463rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 97.688%; /* 1.13775rem */
+  letter-spacing: 0.02331rem;
+}
+
+.date {
+  color: #353535;
+  font-family: Roboto;
+  font-size: 1.16463rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 97.688%; /* 1.13775rem */
+  letter-spacing: 0.02331rem;
+}
+
+.notes {
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160.188%; /* 1.80213rem */
+  letter-spacing: 0.03938rem;
+}
+
+
+@media (max-width: 600px) {
+  .NotesGroupHeading,
+  .NotesContent,
+  .NotesEnter {
+    width: 100%;
+  }
+
+  .NotesInput {
+    max-width: 95vw;
+    min-width: 95vw;
+  }
+}
+@media (min-width: 600px) {
+.backButton{
+display: none;
+}
+}
