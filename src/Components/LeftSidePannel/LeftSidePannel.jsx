@@ -107,3 +107,4 @@ const LeftSidePannel = ({ handleClick,handleUserIdClicked, id, groupName, color,
 };
 
 export default LeftSidePannel;
+
