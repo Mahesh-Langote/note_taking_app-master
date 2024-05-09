@@ -27,3 +27,4 @@ Use Pocket Notes on up to 4 linked devices and 1 mobile phone
 };
 
 export default RightSidePannel;
+  
